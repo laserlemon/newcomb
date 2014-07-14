@@ -1,0 +1,19 @@
+branches:
+  only:
+    - master
+env:
+  global:
+    secure: | # CODECLIMATE_REPO_TOKEN
+      XnaAxp9pN9OR+jSyLUXQwKkMVcUfNy+7muWXKLQRi/zIh2ObGBCEXTww/8mP
+      hwv4Rf8a4n7+gpQhmv6MEx3xwdArkxLChs1EX79XGNN9/g/DBPtfoiKB3FLd
+      UUJTuPurAlOklt/s+XvJTV5h50ThpvutSqkSenO5me8v/ODO6hw=
+language: ruby
+matrix:
+  allow_failures:
+    - rvm: ruby-head
+rvm:
+  - 1.9.3
+  - "2.0"
+  - "2.1"
+  - ruby-head
+script: bundle exec rspec
