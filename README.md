@@ -2,6 +2,12 @@
 
 TODO: Write a gem description
 
+[![Gem Version](https://img.shields.io/gem/v/newcomb.svg?style=flat)](http://rubygems.org/gems/newcomb)
+[![Build Status](https://img.shields.io/travis/laserlemon/newcomb/master.svg?style=flat)](https://travis-ci.org/laserlemon/newcomb)
+[![Code Climate](https://img.shields.io/codeclimate/github/laserlemon/newcomb.svg?style=flat)](https://codeclimate.com/github/laserlemon/newcomb)
+[![Code Coverage](http://img.shields.io/codeclimate/coverage/github/laserlemon/newcomb.svg?style=flat)](https://codeclimate.com/github/laserlemon/newcomb)
+[![Dependency Status](https://img.shields.io/gemnasium/laserlemon/newcomb.svg?style=flat)](https://gemnasium.com/laserlemon/newcomb)
+
 ## Installation
 
 Add this line to your application's Gemfile:
