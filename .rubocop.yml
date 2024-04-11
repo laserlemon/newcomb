@@ -1,0 +1,29 @@
+require:
+- rubocop-rake
+- rubocop-rspec
+
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.0
+
+Gemspec/DevelopmentDependencies:
+  Enabled: false
+
+Layout/SpaceAroundOperators:
+  EnforcedStyleForExponentOperator: space
+
+Metrics:
+  Exclude:
+  - spec/*
+
+RSpec/MultipleExpectations:
+  Enabled: false
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: comma
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: comma
