@@ -2,11 +2,8 @@
 
 Generate random numbers that adhere to [Benford's Law](http://en.wikipedia.org/wiki/Benford's_law)
 
-[![Gem Version](https://img.shields.io/gem/v/newcomb.svg?style=flat)](http://rubygems.org/gems/newcomb)
-[![Build Status](https://img.shields.io/travis/laserlemon/newcomb/master.svg?style=flat)](https://travis-ci.org/laserlemon/newcomb)
-[![Code Climate](https://img.shields.io/codeclimate/github/laserlemon/newcomb.svg?style=flat)](https://codeclimate.com/github/laserlemon/newcomb)
-[![Code Coverage](http://img.shields.io/codeclimate/coverage/github/laserlemon/newcomb.svg?style=flat)](https://codeclimate.com/github/laserlemon/newcomb)
-[![Dependency Status](https://img.shields.io/gemnasium/laserlemon/newcomb.svg?style=flat)](https://gemnasium.com/laserlemon/newcomb)
+[![Gem Version](https://img.shields.io/gem/v/newcomb)](http://rubygems.org/gems/newcomb)
+[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/laserlemon/newcomb/rake.yml)](https://github.com/laserlemon/newcomb/actions/workflows/rake.yml)
 
 ## Usage
 
@@ -21,6 +18,26 @@ To fetch a random positive integer, provide the upper (exclusive) limit:
 
 ```ruby
 Newcomb.random_number(100) # => 16
+```
+
+To fetch a random positive float, provide the upper (exclusive) limit as a float:
+
+```ruby
+Newcomb.random_number(100.0) # => 21.895884449446473
+```
+
+To fetch a random integer within a range, provide a range with integer endpoints:
+
+```ruby
+Newcomb.random_number(100..1000) # => 141
+```
+
+To fetch a random float within a range, provide a range with float (or mixed) endpoints:
+
+```ruby
+Newcomb.random_number(100.0..1000.0) # => 203.90587157406662
+Newcomb.random_number(100..1000.0) # => 424.9768102233391
+Newcomb.random_number(100.0..1000) # => 628.7978615329862
 ```
 
 Over a sufficiently large sample size, the distribution of Newcomb's random
