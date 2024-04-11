@@ -3,7 +3,7 @@
 Generate random numbers that adhere to [Benford's Law](http://en.wikipedia.org/wiki/Benford's_law)
 
 [![Gem Version](https://img.shields.io/gem/v/newcomb)](http://rubygems.org/gems/newcomb)
-[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/laserlemon/newcomb/rake.yml)](https://github.com/laserlemon/newcomb/actions/workflows/rake.yml)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/laserlemon/newcomb/rake.yml)](https://github.com/laserlemon/newcomb/actions/workflows/rake.yml)
 
 ## Usage
 
