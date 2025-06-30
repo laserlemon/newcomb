@@ -1,9 +1,16 @@
-# Newcomb
+<h1>
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/15369987-a098-48d2-a9ca-301127a77e86">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/1be2dd40-8060-49ef-810c-576b4a1cefa7">
+    <img alt="Newcomb" src="https://github.com/user-attachments/assets/15369987-a098-48d2-a9ca-301127a77e86" style="height:2em">
+  </picture>
+</h1>
 
 Generate random numbers that adhere to [Benford's Law](http://en.wikipedia.org/wiki/Benford's_law)
 
-[![Gem Version](https://img.shields.io/gem/v/newcomb)](http://rubygems.org/gems/newcomb)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/laserlemon/newcomb/rake.yml)](https://github.com/laserlemon/newcomb/actions/workflows/rake.yml)
+[![Made by laserlemon](https://img.shields.io/badge/laser-lemon-fc0?style=flat-square)](https://github.com/laserlemon)
+[![Gem version](https://img.shields.io/gem/v/newcomb?style=flat-square)](https://rubygems.org/gems/newcomb)
+[![Build status](https://img.shields.io/github/actions/workflow/status/laserlemon/newcomb/test.yml?style=flat-square)](https://github.com/laserlemon/newcomb/actions/workflows/test.yml)
 
 ## Usage
 
