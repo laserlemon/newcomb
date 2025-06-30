@@ -4,8 +4,8 @@ source "https://rubygems.org"
 
 gemspec
 
-gem "bigdecimal", "~> 3.1.7"
-gem "rspec", "~> 3.13.0"
-gem "rubocop", "~> 1.62.1"
-gem "rubocop-rake", "~> 0.6.0"
-gem "rubocop-rspec", "~> 2.27.1"
+gem "bigdecimal", "~> 3.2"
+gem "rspec", "~> 3.13"
+gem "rubocop", "~> 1.77"
+gem "rubocop-rake", "~> 0.7.1"
+gem "rubocop-rspec", "~> 3.6"
